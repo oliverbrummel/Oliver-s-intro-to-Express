@@ -1,0 +1,63 @@
+body {
+  background-image: url(Black_background-2.jpg);
+  color: cornsilk;
+}
+header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #46210f;
+  text-align: center;
+  border: 5px ridge #5d645f;
+  border-radius: 10px;
+  width: 50%;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 8px 8px 4px #000000;
+
+}
+#buttonDiv {
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  background-color: cornsilk;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  transition: background-color .5s;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#buttonDiv button:hover {
+  background-color: #6a665b;
+}
+
+.clear {
+  background-color: #ff0000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.clear:hover {
+  background-color: #380401;
+  color: white;
+}
+
+
+#movieDiv {
+  text-align: center;
+}
+
+img {
+  border: 10px ridge #46210f;
+}
+
+.highlighted {
+  background-color: #6a665b;
+}
